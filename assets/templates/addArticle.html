@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" type="text/css" />
+        <link rel="stylesheet" href="../css/style.css" type="text/css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/helpers/checkAdmin.js"></script>
+        <script type="text/javascript" src="../js/models/Article.js"></script>
+        <script type="text/javascript" src="../js/views/addArticle.js"></script>
+        <script type="text/javascript" src="../js/models/Users.js"></script>
+        <title>Cat's World-Add Article</title>
+    </head>
+    <body>
+     
+         <!--menu-->
+      <div class="header" >
+        <img class="logo"  height=5% width=5% src="../images/logo0.png"></img>
+                <ul>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="publicArticles.html">Articles</a></li>
+                        <li><a href="home.html">Home</a></li>
+                        
+                </ul>
+                
+           </div>  
+           <!-- end menu-->
+     
+     <h3>New article</h3>
+        <form id="create_article">
+            <br>
+            <input type="text" name="title" placeholder="New article title"/><br>
+            <input type="textarea" rows="10"  name="content" placeholder="New article content"/><br>
+            <input type="file" name="article_img"/><br>
+            <button type="submit">Send</button>
+        </form>
+    
+    
+    </body>
+</html>

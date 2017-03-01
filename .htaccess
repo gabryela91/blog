@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^api/(.*)$ api/api.php [L]
+
+#RewriteRule ^(.*)/ceva/(.*)$ api.php?$1&$2 [L]
+</IfModule>

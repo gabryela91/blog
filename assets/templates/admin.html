@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+    <script type="text/javascript" src="../js/helpers/checkAdmin.js"></script>
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
+    <script type="text/javascript" src="../js/models/Article.js"></script>
+    <script type="text/javascript" src="../js/models/Articles.js"></script>
+    <script type="text/javascript" src="../js/models/Comment.js"></script>
+    <script type="text/javascript" src="../js/models/Comments.js"></script>
+    <script type="text/javascript" src="../js/views/admin.js"></script>
+    <script type="text/javascript" src="../js/models/Users.js"></script>
+    
+   
+    <title>Cat's World-Admin page</title>
+    
+</head>
+<body>
+    
+   <!--menu-->
+      <div class="header" >
+          <img class="logo"  height=5% width=5% src="../images/logo0.png"></img>
+                <ul>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="publicArticles.html">Articles</a></li>
+                        <li><a href="home.html">Home</a></li>
+                        
+                </ul>
+                
+           </div>  
+           <!-- end menu-->
+      
+        
+        <button id= "logout-btn">Logout</button>
+<div class="container">
+ 
+    <input type= "text" name="search" class= "searchbtn" placeholder= "Search"/>
+    <button type= "submit" id="search-btn">Search </button> <br>
+    <button id= "add-article" class="css-addArticle">Add Article</button>
+   
+      <div class="clearfix">
+        <article id="js-objects">
+        
+          </article>
+          
+       </div>
+
+   
+    <ul id="pagination" class="pagination navbar-brand"></ul>
+        
+       
+</body>
+</html>

@@ -1,0 +1,263 @@
+body{
+    background-image: url(../images/black.gif);
+    font-size: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Courier New", cursive, monospace;
+    color:#99ff33;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: auto;
+    text-align: center;
+}
+.elem:after {
+    display: block;
+    content:' ';
+    clear: both;
+}
+.header{
+    background-color: #666666;
+    min-height: 100px;
+    max-width: 100%;
+}
+/*menu*/
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header li {
+    float: right;
+}
+
+.header li a {
+    display: block;
+    padding:8px;
+    background-color: #666666;
+    color: #ccff33;
+    text-decoration: none;
+}
+.float-right{
+    float: right;
+}
+/*end menu*/
+h2{
+text-align :center;
+}
+
+/*articles admin*/
+.container-box {
+    
+    width: 510px;
+    position: absolute;
+    min-height: 50%;
+    opacity: 0.95;
+    top: 30px;
+    left: 20px;
+    right: 20px;
+    background-color: #c2c2a3;
+    margin: 200px 100px 40px 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 15px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+ 
+       
+}
+.article-box {
+  
+    border: 3px solid #bbb;
+    margin:10px 15px 5px 0px;  
+   
+    float: right;
+    
+}
+
+.articleText {
+   
+    font-size: medium;
+    font-family: cursive;
+    padding-left: 2px;
+    padding-right: 2px;
+    display: block;
+    color: black;
+    margin: 30px 20px 10px 20px;
+    
+
+}
+.articleImage {
+    
+      float: left;
+    overflow: hidden;
+    height: 250px;
+    width: 220px;
+    display: block;
+    margin: 10px;
+    margin-top: 30px;
+    
+}
+/*end articles admin*/
+/*others*/
+.home-header {
+    margin: 2px;
+    margin-bottom: 10px;
+    font-size: 11px;
+    color: #ffffff;
+   
+}
+.logo{
+  
+    margin-top: 5px;
+    margin-left: 5px;
+   
+}
+.home-title {
+    margin: 0;
+    font-size: 30px;
+    line-height: 40px;
+    padding-bottom: 20px;
+    position: initial;
+    color:#cc66ff;
+}
+.post {
+    color: #ccff33;
+    line-height: 2em;
+    margin-bottom: 10px;
+    position: initial;
+}
+comments {
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.card-panel {
+    overflow: hidden;
+    color: #000000;
+    background-color: #bfbfbf;
+    padding: 20px;
+    margin: 0.5rem 0px 1rem;
+    border-radius: 2px;
+    min-height: 50%;
+    box-sizing: border-box; 
+}
+.glyphicon {
+    color: #000000;
+    height: 23px;
+}
+.preview {
+    max-height: 240px;
+    overflow: hidden;
+}
+/*end others*/
+/*article's list*/
+.article-container {
+    
+    width: 510px;
+    position: absolute;
+    min-height: 50%;
+    opacity: 0.95;
+    top: 30px;
+    left: 20px;
+    right: 20px;
+    background-color: #b34d4d;
+    margin: 200px 100px 40px 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 15px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+ }
+ 
+.article-box {
+  
+    border: 3px solid #bbb;
+    margin:10px 15px 5px 0px;  
+   
+    float: right;
+    
+}
+
+.articleText {
+   
+   
+    font-size: medium;
+    font-family: sans-serif;
+    padding-left: 2px;
+    padding-right: 2px;
+    display: block;
+    color: black;
+    margin: 30px 20px 10px 20px;
+    
+}
+.articleImage {
+    
+      float: left;
+    overflow: hidden;
+    height: 250px;
+    width: 220px;
+    display: block;
+    margin: 10px;
+    margin-top: 30px;
+    
+}
+
+/*end article's list*/
+
+.clearfix:after{
+    content: "."; 
+    display: block;
+    clear: both; 
+    visibility: hidden; 
+    line-height: 0; 
+    height: 0; 
+}
+.clearfix { 
+    display: inline-block;
+}
+.css-addArticle{
+    float: right;
+    margin-right: 15px;
+}
+.pagination{
+    /*float: right;*/
+   margin-left: 400px;
+}
+.pagination>button {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    line-height: 1.42857;
+    text-decoration: none;
+    color: blue;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-left: 0px;
+}
+.logout-css{
+    float: right;
+    margin-right: 120px;
+    background-color: #cc0099;
+    
+}
+.contactus{
+display:block;
+
+}
+.row {
+    text-align: center;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+.btn {
+    color: #000000; 
+}
